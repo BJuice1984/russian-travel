@@ -10,3 +10,10 @@
     right: 24px;
     } 
 }
+
+@media screen and (min-width: 1024px) {
+.header__lang-links {    
+    right: 48px;
+    } 
+
+}
