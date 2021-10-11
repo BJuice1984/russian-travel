@@ -3,3 +3,10 @@
     top: 30px;
     right: 16px;
 }
+
+@media screen and (min-width: 768px) {
+.header__lang-links {    
+    top: 46px;
+    right: 24px;
+    } 
+}
