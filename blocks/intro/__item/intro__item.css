@@ -1,0 +1,9 @@
+.intro__items {
+    list-style: none;
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 18px;
+    text-decoration: none;
+    margin: 0;
+    font-weight: bold; 
+}
