@@ -1,7 +1,7 @@
 .lead__illustration {
     min-height: 200px;
     min-width: 320px;
-    width: 100vw;    
+    width: 100%;    
     padding-top: 40px;
     display: flex;
 }
@@ -10,6 +10,7 @@
 .lead__illustration {
     min-height: 480px;
     min-width: 768px;
+    max-width: 928px;
     padding-top: 56px;
     }
 }
