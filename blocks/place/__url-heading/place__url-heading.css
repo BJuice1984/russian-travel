@@ -1,0 +1,24 @@
+.place__url-heading {
+    grid-area: place__url-heading;
+    color: #AAAAAA;    
+    font-size: 12px;
+    line-height: 12px;
+    text-decoration: none;
+    margin: 0;
+    font-weight: normal;
+    padding-top: 32px;
+    padding-left: 16px;
+    
+}
+
+@media screen and (min-width: 768px) {
+.place__url-heading {
+    padding-left: 28px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .place__url-heading {
+        padding-left: 32px;
+        }
+    }
