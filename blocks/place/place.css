@@ -9,7 +9,7 @@
     "place__url-heading"
     "place__link"
     "place__image"
-    "place__main-text"
+    "place__main-text";
 }
 
 .place:not(:first-child) {
@@ -23,7 +23,7 @@
     grid-template-rows: repeat(2, minmax(min-content, max-content));
     grid-template-areas: 
     "place__titile place__url-container"
-    "place__image place__main-text"    
+    "place__image place__main-text";    
     }
 
 .place:not(:first-child) {
