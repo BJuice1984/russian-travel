@@ -7,6 +7,7 @@
     font-weight: 900;
     text-align: center;
     padding-top: 33px;
+    width: 288px;
 }
 
 @media screen and (min-width: 768px) {
@@ -14,6 +15,7 @@
     font-size: 72px;
     line-height: 76px;
     padding-top: 115px;
+    width: 560px;
 
 }
 }

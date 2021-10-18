@@ -3,4 +3,20 @@
     margin: 0;
     padding-top: 64px;
     position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, minmax(min-content, max-content));
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+.footer {
+    background-color:#2A2C2F;
+    margin: 0;
+    padding-top: 88px;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(min-content, max-content));
+    grid-template-rows: 1fr;
+}
 }
