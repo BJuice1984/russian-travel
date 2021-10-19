@@ -1,19 +1,17 @@
 .cover {
-    background-color:#2A2C2F;
-    margin: 0;
-    padding-top: 66px;
+  background-color: #2a2c2f;
+  margin: 0;
+  padding-top: 66px;
 }
 
 @media screen and (min-width: 768px) {
-.cover {
+  .cover {
     padding-top: 90px;
-
-}
+  }
 }
 
 @media screen and (min-width: 1024px) {
-.cover {
+  .cover {
     padding-top: 92px;
-
-}
+  }
 }

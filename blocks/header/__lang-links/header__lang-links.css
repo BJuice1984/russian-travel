@@ -1,19 +1,15 @@
 .header__lang-links {
-    position: absolute;
-    top: 30px;
-    right: 16px;
+  padding-right: 24px;
 }
 
 @media screen and (min-width: 768px) {
-.header__lang-links {    
-    top: 46px;
-    right: 24px;
-    } 
+  .header__lang-links {
+    padding-right: 24px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-.header__lang-links {    
-    right: 48px;
-    } 
-
+  .header__lang-links {
+    padding-right: 48px;
+  }
 }

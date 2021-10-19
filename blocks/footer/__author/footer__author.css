@@ -1,22 +1,22 @@
 .footer__author {
-    color: #FFFFFF;
-    font-size: 14px;
-    line-height: 14px;
-    margin: 0;
-    padding-bottom: 24px;
-    padding-left: 16px;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 14px;
+  margin: 0;
+  padding-bottom: 24px;
+  padding-left: 16px;
 }
 
 @media screen and (min-width: 768px) {
-.footer__author {
+  .footer__author {
     padding-left: 0;
     padding-right: 24px;
-}
+  }
 }
 
 @media screen and (min-width: 1024px) {
-    .footer__author {
-        padding-left: 0;
-        padding-right: 48px;
-    }
-    }
+  .footer__author {
+    padding-left: 0;
+    padding-right: 48px;
+  }
+}

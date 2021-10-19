@@ -1,29 +1,36 @@
 .place__titile {
-    grid-area: place__titile;
-    color: #FFFFFF;
-    font-size: 32px;
-    line-height: 35px;
-    text-decoration: none;
-    margin: 0;
-    font-weight: 900;
-    padding-left: 16px;
-    align-self: end;
+  grid-area: place__titile;
+  color: #ffffff;
+  font-size: 32px;
+  line-height: 35px;
+  text-decoration: none;
+  margin: 0;
+  font-weight: 900;
+  padding-left: 16px;
+  align-self: end;
 }
 
 @media screen and (min-width: 768px) {
-.place__titile {
-        font-size: 42px;
-        line-height: 46px;
-        padding-left: 24px;
-        max-width: 340px;
-    }
+  .place__titile {
+    font-size: 42px;
+    line-height: 46px;
+    padding-left: 24px;
+    max-width: 330px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-    .place__titile {
-            font-size: 72px;
-            line-height: 76px;
-            padding-left: 48px;
-            max-width: 440px;
-        }
-    }
+  .place__titile {
+    font-size: 72px;
+    line-height: 76px;
+    padding-left: 48px;
+    max-width: 440px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place__titile {
+    padding-left: 148px;
+    max-width: 460px;
+  }
+}

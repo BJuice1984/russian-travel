@@ -1,31 +1,31 @@
 .lead__illustration {
-    min-height: 200px;
-    min-width: 320px;
-    width: 100%;
-    padding-top: 40px;
-    display: flex;
+  min-height: 200px;
+  min-width: 320px;
+  width: 100%;
+  padding-top: 40px;
+  display: flex;
 }
 
 @media screen and (min-width: 768px) {
-.lead__illustration {
+  .lead__illustration {
     min-height: 480px;
-    min-width: 768px;
+
     max-width: 928px;
     padding-top: 56px;
-    }
+  }
 }
 
 @media screen and (min-width: 1024px) {
-.lead__illustration {
+  .lead__illustration {
     min-height: 580px;
     max-width: 928px;
-    }
+  }
 }
 
 @media screen and (min-width: 1280px) {
-.lead__illustration {
+  .lead__illustration {
     min-height: 615px;
     max-width: 984px;
     padding-top: 64px;
-    }
+  }
 }

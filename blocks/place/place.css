@@ -1,10 +1,10 @@
 .place {
-    margin: 0;
-    padding-top: 64px;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, minmax(min-content, max-content));
-    grid-template-areas: 
+  margin: 0;
+  padding-top: 64px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, minmax(min-content, max-content));
+  grid-template-areas:
     "place__titile"
     "place__url-heading"
     "place__link"
@@ -13,31 +13,30 @@
 }
 
 .place:not(:first-child) {
-    padding-top: 50px;
+  padding-top: 50px;
 }
 
 @media screen and (min-width: 768px) {
-.place {
+  .place {
     padding-top: 88px;
     grid-template-columns: repeat(2, minmax(min-content, max-content));
     grid-template-rows: repeat(2, minmax(min-content, max-content));
-    grid-template-areas: 
-    "place__titile place__url-container"
-    "place__image place__main-text";    
-    }
+    grid-template-areas:
+      "place__titile place__url-container"
+      "place__image place__main-text";
+  }
 
-.place:not(:first-child) {
+  .place:not(:first-child) {
     padding-top: 73px;
-}
+  }
 }
 
 @media screen and (min-width: 1024px) {
-.place {
+  .place {
     padding-top: 92px;
-    }
+  }
 
-.place:not(:first-child) {
+  .place:not(:first-child) {
     padding-top: 80px;
-    }
-    
+  }
 }

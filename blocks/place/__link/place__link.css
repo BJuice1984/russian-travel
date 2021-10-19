@@ -1,28 +1,34 @@
 .place__link {
-    grid-area: place__link;
-    color: #FFFFFF;
-    font-size: 18px;
-    line-height: 22px;
-    text-decoration: underline;
-    margin: 0;
-    font-weight: normal;
-    padding-top: 12px;
-    padding-left: 16px;    
+  grid-area: place__link;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: underline;
+  margin: 0;
+  font-weight: normal;
+  padding-top: 12px;
+  padding-left: 16px;
 }
 
 .place__link:hover {
-    opacity: 0.8;
-    transition: 0.2s ease-in-out;
+  opacity: 0.8;
+  transition: 0.2s ease-in-out;
 }
 
 @media screen and (min-width: 768px) {
-.place__link {  
+  .place__link {
     padding-left: 28px;
-    }
+  }
 }
 
 @media screen and (min-width: 1024px) {
-    .place__link {  
-        padding-left: 32px;
-        }
-    }
+  .place__link {
+    padding-left: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .place__link {
+    padding-left: 40px;
+  }
+}
