@@ -1,6 +1,7 @@
 .place__image {
   grid-area: place__image;
   height: 100%;
+  width: 100%;
   padding-top: 32px;
   box-sizing: border-box;
 }

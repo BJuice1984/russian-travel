@@ -3,4 +3,11 @@
   display: flex;
   flex-direction: column;
   align-self: end;
+  padding-top: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .place__url-container {
+    padding-top: 0;
+  }
 }
