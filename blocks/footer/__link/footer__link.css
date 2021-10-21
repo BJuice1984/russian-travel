@@ -40,9 +40,3 @@
     padding-left: 48px;
   }
 }
-
-@media screen and (min-width: 1280px) {
-  .footer__link:first-child {
-    padding-left: 48px;
-  }
-}

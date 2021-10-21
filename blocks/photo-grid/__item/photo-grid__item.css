@@ -4,9 +4,3 @@
   object-fit: contain;
   object-position: center;
 }
-
-@media screen and (min-width: 768px) {
-  .photo-grid__item {
-    width: 100%;
-  }
-}

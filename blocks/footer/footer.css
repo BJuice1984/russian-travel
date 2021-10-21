@@ -2,7 +2,6 @@
   background-color: #2a2c2f;
   margin: 0;
   padding-top: 64px;
-  position: relative;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(2, minmax(min-content, max-content));
@@ -13,5 +12,12 @@
   .footer {
     grid-template-columns: repeat(2, minmax(min-content, max-content));
     grid-template-rows: 1fr;
+    padding-top: 88px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    padding-top: 92px;
   }
 }
