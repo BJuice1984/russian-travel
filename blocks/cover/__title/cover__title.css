@@ -6,7 +6,6 @@
   margin: 0 auto;
   font-weight: 900;
   text-align: center;
-
   width: 288px;
 }
 
@@ -14,7 +13,6 @@
   .cover__title {
     font-size: 72px;
     line-height: 76px;
-
     width: 560px;
   }
 }
